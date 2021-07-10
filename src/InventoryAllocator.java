@@ -89,7 +89,7 @@ public class InventoryAllocator {
 	}
 
 	private void test3() throws JsonParseException, JsonMappingException, IOException {
-		System.out.println("this is a positive case where we satisfing the requirment ");
+		System.out.println("this is a positive case where we satisfing the  all requirment ");
 		String inputCustomerRequest = "{ \"orange\":2}";
 		String storeInventory = "[{ \"name\": \"owd\", \"inventory\": { \"apple\": 10 } }, { \"name\": \"dm\", \"inventory\": { \"orange\": 10 } }]";
 
